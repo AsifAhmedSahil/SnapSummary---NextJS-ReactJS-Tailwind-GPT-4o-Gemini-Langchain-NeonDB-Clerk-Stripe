@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+ ### Application Features:
 
-## Getting Started
+📝 Clear, structured summaries with key points and insights
+🎨 Beautiful, interactive summary viewer with progress tracking
+🔒 Secure file handling and processing
+🔐 Protected routes and API endpoints
+💰 Flexible pricing plans (Basic and Pro)
+🪝 Webhook implementation for Stripe events
+📊 User dashboard for managing summaries
+📱 Responsive design for mobile and desktop
+🔄 Real-time updates and path revalidation
+🚀 Production-ready deployment
+🔔 Toast notifications for upload status, processing updates, and error handling
+📈 Performance optimizations
+🔍 SEO-friendly summary generation
+🗂️ Markdown Export that can be converted into a blog post
 
-First, run the development server:
+Here's what you'll learn:
+ ### Core Technologies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Next.js 15 App Router for server-side rendering, routing, and API endpoints with Server Components and Server Actions
+⚛️ React 19 for building interactive user interfaces with reusable components
+🔑 Clerk for secure authentication with Passkeys, Github, and Google Sign-in
+🤖 GPT-4 powered summarization with contextual understanding and emoji-enhanced output
+🧠 Langchain for PDF parsing, text extraction, and document chunking
+🎨 ShadcN UI for accessible, customizable React components
+💾 NeonDB (PostgreSQL) for serverless database storage of summaries and user data
+📤 UploadThing for secure PDF uploads (up to 32MB) and file management
+💳 Stripe course for subscription management, cancellations and secure payment processing
+🔔 Toast notifications for user feedback
+📜 TypeScript for static typing and enhanced development experience
+💅 TailwindCSS 4 for utility-first, responsive styling (also learn to upgrade to Tailwind v4)
+🚀 Deployment on Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Features:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clear, Structured Summaries: SnapSummary generates easy-to-understand summaries that highlight the most important insights, saving you time and effort when reviewing long PDFs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interactive Summary Viewer: Navigate through your summary with ease using an interactive viewer that tracks your progress and presents the content in a visually appealing way.
 
-## Learn More
+Secure File Handling: Your data is safe with SnapSummary. The application ensures secure file uploads and processing through encrypted API endpoints, protecting your privacy at all stages.
 
-To learn more about Next.js, take a look at the following resources:
+Flexible Pricing Plans: Whether you're an individual user or a business, SnapSummary offers flexible subscription plans (Basic and Pro) to meet your needs, providing access to all the tools necessary for efficient summarization.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Webhook Integration with Stripe: Seamlessly manage your subscriptions with webhook integration, allowing SnapSummary to handle Stripe events for payments, cancellations, and more.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+User Dashboard: Keep track of your summaries in one place. The user-friendly dashboard makes it easy to organize, view, and manage your documents.
 
-## Deploy on Vercel
+Responsive Design: Whether you’re on mobile or desktop, SnapSummary offers a fully responsive design that adapts to any device, providing a seamless experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Real-Time Updates: Get instant feedback on your document’s processing status with real-time notifications for uploads, updates, and error handling.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+SEO-Friendly Summaries: Generated summaries are optimized for search engines, making them perfect for sharing on blogs or other platforms.
+
+Markdown Export: Export your summaries as markdown, allowing easy integration into blog posts, reports, or any other content format.

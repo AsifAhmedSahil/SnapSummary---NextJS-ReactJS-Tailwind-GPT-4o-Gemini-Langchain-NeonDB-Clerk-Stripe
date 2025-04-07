@@ -113,10 +113,33 @@
 }
 
 @layer base {
+  /* Apply a border to an element */
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
+
+  /* Style for h1 heading */
+  h1 {
+    @apply text-4xl md:text-6xl xl:text-7xl font-bold;
+  }
+
+  /* Style for h2 heading */
+  h2 {
+    @apply text-xl lg:text-3xl font-medium;
+  }
+
+  /* Style for h3 heading */
+  h3 {
+    @apply text-2xl lg:text-4xl font-medium;
+  }
+
+  /* Style for anchor (a) tags */
+  a {
+    @apply hover:cursor-pointer;
+  }
+
+  /* Style for button elements */
+  button {
+    @apply hover:cursor-pointer bg-rose-600 hover:bg-rose-700;
   }
 }
